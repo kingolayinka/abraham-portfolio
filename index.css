@@ -202,11 +202,7 @@ button a{
 
 a{
     color: rgb(232, 232, 218);
-    text-decoration: none;
-    
-}
-a :hover{
-    text-decoration-line: line-through;
+    text-decoration: none;   
 }
 
 /* My job*/
