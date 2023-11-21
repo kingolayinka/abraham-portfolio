@@ -1,0 +1,810 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    font-family: sans-serif;
+    background-color: rgb(65, 53, 76);
+    text-align: center;
+    width: 20%;
+    height: 100vh;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 20px;
+    position: fixed;
+    top: 0;
+}
+.nav-logo img {
+    border-radius: 50%;
+    width: 60%;
+    height: 25vh;
+    border: 8px solid rgb(208, 147, 147);
+    margin-top: 25px;
+}
+
+.nav-icon{
+    margin-top: 20px;
+}
+.nav-icon ul li {
+    margin: 30px;
+    list-style-type: none;
+    
+}
+.nav-icon ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-icon a :hover {
+    color: red
+
+}
+/* for home setion*/
+/*.home{
+    
+    font-family: sans-serif;
+    background: rgb(16, 15, 15);
+    padding: 100px 20px 30px 300px;
+    height: 100vh;
+    color: whitesmoke;
+}*/
+section{
+    font-family: sans-serif;
+    background: rgb(16, 15, 15);
+    padding: 5px 20px 30px 300px;
+    width: 100%;
+    color: whitesmoke;
+    
+}
+
+/*.home{
+    font-family: sans-serif;
+    background: rgb(16, 15, 15);
+    padding: 100px 20px 30px 300px;
+    height: 100vh;
+    color: whitesmoke;
+}*/
+.home{
+    border-top: 4px solid rgb(97, 94, 94);
+    
+    font-family: sans-serif;
+    
+    padding: 100px 20px 0px 20px;
+    
+    color: whitesmoke;
+    margin: 100px -20px -30px -50px;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 35px;
+    color: whitesmoke;
+    line-height: 60px;
+}
+span{
+    color: antiquewhite;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 20px;
+    margin: 20px 0 20px 0;
+    line-height: 35px;
+    color: rgb(232, 232, 218);
+    
+}
+.btn{
+    display: flex;
+    
+}
+
+button{
+    padding: 15px;
+    background: rgb(86, 86, 84);
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(65, 53, 76);
+    font-weight: 100px;
+    font-size: 1rem;
+}
+.btn h4{
+    padding: 20px 0 0 25px; 
+}
+
+/*what i do*/
+.what-i-do1{
+    
+    border-top: 4px solid rgb(97, 94, 94);
+    font-family: sans-serif;
+    padding: 100px 20px 0px 20px;
+    height: 120vh;
+    color: whitesmoke;
+    margin: 35px -20px 0 -50px;
+}
+.intro{
+    margin-top: -55px;
+}
+
+.intro h3{
+    font-size: 1.3rem;
+    color: rgb(232, 232, 218);
+}
+
+.intro h2{
+    font-size: 2rem;
+    font-weight: 100px;
+    margin-top: 15px;
+    color: white;
+}
+
+.what-ido {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 0px 0;
+    font-family: sans-serif;
+    
+}
+
+.ux{
+    background: rgb(65, 53, 76);
+    border-radius: 15px;
+    width: 30%;
+    padding: 25px 25px 0 25px;
+}
+.ux h2{
+    color: whitesmoke;
+    padding: 25px 0 0 0;
+    font-size: 1rem;
+}
+.ux p{
+    line-height: 25px;
+    color: rgb(232, 232, 218);
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    
+}
+
+.branding{
+    background: rgb(65, 53, 76);
+    border-radius: 15px;
+      width: 30%;
+    padding: 25px ;
+}
+.branding h2{
+    color: whitesmoke;
+    padding: 25px 0 0px 0;
+    font-size: 1rem;
+}
+.branding p{
+    line-height: 25px;
+    color: rgb(232, 232, 218);
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.web-Design{
+    background: rgb(65, 53, 76);
+    border-radius: 15px;
+    width: 30%;
+    padding: 25px;
+}
+.web-Design h2{
+    color: whitesmoke;
+    padding: 25px 0 0 0;
+    font-size: 1rem;
+}
+.web-Design p{
+    line-height: 25px;
+    color: rgb(232, 232, 218);
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+a{
+    color: rgb(232, 232, 218);
+    text-decoration: none;
+    
+}
+a :hover{
+    text-decoration-line: line-through;
+}
+
+/* My job*/
+.my-job{
+    font-family: sans-serif;
+    border-top: 4px solid rgb(97, 94, 94);
+    color: rgb(232, 232, 218);
+    padding: 100px 20px 0px 20px;
+    height: 240vh;
+    margin: 0px -20px 0px -50px;
+}
+
+.job{
+    margin-top: -65px;
+}
+.job p{
+    font-size: 0.5rem;
+}
+
+.job h3{
+    font-size: 1.3rem;
+    color: rgb(232, 232, 218);
+    margin-top: 10px;
+}
+
+.job h2{
+    font-size: 2rem;
+    font-weight: 100px;
+    margin-top: 5px;
+    color: white;
+
+}
+
+.project{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project1{
+    background: rgb(65, 53, 76);
+    margin-right: 5px;
+    border-radius: 10px;
+    padding:0 ;
+
+}
+.project h2{
+    padding: 15px 15px 0px 15px;
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-weight: 25px;
+}
+.project p{
+    font-size: 0.9rem;
+    padding: 0 0 0 15px;
+}
+
+.project2{
+    background: rgb(65, 53, 76);
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+
+/*p{
+    padding: 0 20px 20px 20px;
+    line-height: 25px;
+    color: rgb(232, 232, 218);
+    margin-bottom: 0px;
+}*/
+
+a{
+    color: rgb(232, 232, 218);
+    text-decoration: none;
+    padding: 0 20px 50px 20px;
+}
+.project-b{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+}
+
+.project-b h2{
+    padding: 15px 15px 0px 15px;
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-weight: 25px;
+}
+.project-b p{
+    font-size: 0.9rem;
+    padding: 0 0 0 15px;
+}
+.project3{
+    background: rgb(65, 53, 76);
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+
+.project4{
+    background: rgb(65, 53, 76);
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+
+/* ABout me*/
+.intro h2{
+    font-size: 2rem;
+    font-weight: 100px;
+    margin-top: 15px;
+    color: white;
+}
+.grid{
+    display: flex;
+}
+.grid-container{
+    display: grid;
+
+    padding: 20px 20px 20px 0;
+}
+.grid-item{
+background:  rgb(65, 53, 76);
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 15px;
+}
+
+.grid h2{
+    color: whitesmoke;
+    padding-bottom: 0px;    
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-weight: 25px;
+}
+.grid p{
+    line-height: 25px;
+    font-size: 0.9rem;
+    padding: 0 0 0 0px;
+}
+
+
+/*........................REVIEWS.............................*/
+
+.reveiws-grid{
+    display: flex;
+}
+
+.grid--item{
+    background:  rgb(65, 53, 76);
+    padding: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    }
+
+    .grid--item p{
+        line-height: 25px;
+        font-size: 0.9rem;
+        padding: 0 0 0 0px;
+    }
+
+
+/*.............................CONTACTS..........................*/
+.contact{
+    text-align: center;
+    
+}
+#cont{
+    padding: 10px 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+#cont button{
+    padding: 10px 200px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+
+/* Media query*/
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        display: none;  
+    }
+    section{
+        font-family: sans-serif;
+        background: rgb(16, 15, 15);
+        padding: 10px 20px 30px 10px;
+        height: 100vh;
+        width: auto;
+        color: whitesmoke;
+    }
+    .home{
+        display: block;
+        font-family: sans-serif; 
+        margin: -20px -30px;
+    }
+    .home h2{
+        font-size: 1rem;
+        padding: 0px 10px 0px 10px;
+        margin: auto;
+        line-height: 16px;
+    }
+    .home p{
+        font-size: 1rem;
+        line-height: 16px;
+        padding: 10px 0px 5px 10px;
+    }
+    .btn{
+        display: flex; 
+        margin-top: 20px;
+    }
+    
+    button{
+        padding: 1px 1px 5px 1px;
+        background: rgb(86, 86, 84);
+        border-style: none;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    button a{
+        text-decoration: none;
+        color: rgb(65, 53, 76);
+        padding: 1px 1px 0px 0px;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+    .btn h4{
+        padding: 0px 0 0px 10px;
+        margin-bottom: 0px; 
+    }
+
+    /*what i do*/
+    .what-i-do1{
+        font-family: sans-serif;
+       background: rgb(16, 15, 15);
+        color: whitesmoke;
+        height: auto;
+        width: auto;
+        
+        
+    }
+    
+    .intro h3{
+        font-size: 1rem;
+        color: rgb(232, 232, 218);
+        margin-top: 1px;
+        padding:  10px 5px 5px 19px;
+        
+    }
+    
+    .intro h2{
+        font-size: 1.2rem;
+        margin-top: 1px;
+        color: white;
+        padding: 0px 5px 0px 19px;
+    }
+    
+    .what-ido {
+        display: block;
+        margin: 0px 0px 20px 0px;
+        font-family: sans-serif;
+    }
+    
+    .ux{
+        background: rgb(65, 53, 76);
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px 0px 10px 5px;
+        width: 93vw;
+    }
+    .ux h2{
+        color: whitesmoke;
+        padding: 10px 5px 10px 10px;
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .ux p{
+        line-height: 15px;
+        color: rgb(232, 232, 218);
+        margin-bottom: 10px;
+        font-size: 1rem;
+        line-height: 20px;
+        padding: 10px 5px 10px 10px;
+    }
+
+    .ux p a{
+        padding: 10px 5px 10px 10px;
+        text-decoration: none;
+
+    }
+    
+    .branding{
+        background: rgb(65, 53, 76);
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px 0px 10px 5px;
+        width: 93vw;
+    }
+    .branding h2{
+        color: whitesmoke;
+        padding: 10px 5px 10px 10px;
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .branding p{
+        line-height: 15px;
+        color: rgb(232, 232, 218);
+        margin-bottom: 10px;
+        font-size: 1rem;
+        line-height: 20px;
+        padding: 10px 5px 10px 10px;
+    }
+    
+    .web-Design{
+        background: rgb(65, 53, 76);
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px 0px 10px 5px;
+        width: 93vw;
+    }
+    .web-Design h2{
+        color: whitesmoke;
+        padding: 10px 5px 10px 10px;
+        font-size: 1rem;
+        line-height: 16px;
+    }
+    .web-Design p{
+        line-height: 15px;
+        color: rgb(232, 232, 218);
+        margin-bottom: 10px;
+        font-size: 1rem;
+        line-height: 20px;
+        padding: 10px 5px 10px 10px;
+    }
+    
+    a{
+        color: rgb(232, 232, 218);
+        text-decoration: none;
+    }
+    a :hover{
+        transition: ease-out 3s;
+    }
+
+   #font{
+    padding: 20px;
+    background: whitesmoke;
+    color: black;
+    border-radius: 5px;
+   }
+    
+    /*MY JOB*/
+    .my-job{
+        
+        font-family: sans-serif;
+        background: rgb(16, 15, 15);
+        height: auto;
+        width: auto;
+        color: whitesmoke;
+        margin-top: 10px;
+        
+    }
+
+    .job h3{
+        font-size: 1rem;
+        color: rgb(232, 232, 218);
+        padding: 10px 5px 10px 20px;
+    }
+
+    .job h2{
+        font-size: 1.2rem;
+        color: white;
+        padding: 0px 5px 0px 20px;
+    }
+
+    .project{
+        display: block;
+        width: 100vw;
+        justify-content: space-evenly;
+        margin: 20px 0 20px 0;
+    }
+
+    .project h2{
+        padding: 10px 20px 10px 20px;
+        color: whitesmoke;
+        line-height: normal;
+        font-size: 1.4rem;
+    }
+    .project p{
+        padding: 0 20px 10px 25px;
+        line-height: normal;
+        color: rgb(232, 232, 218);
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .project a{
+        color: rgb(232, 232, 218);
+        text-decoration: none;
+        padding: 0 20px 20px 25px;
+    }
+
+    img{
+        height: 30vh;
+        width: 95%;
+        border-radius: 10px;
+        margin: 0 0 0 15px;
+    }
+
+    .project1{
+        background: rgb(65, 53, 76);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding-bottom: 40px;
+    }
+
+    .project2{
+        background: rgb(65, 53, 76);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding-bottom: 40px;
+    }
+   
+    /*p{
+        padding: 0 20px 10px 20px;
+        line-height: normal;
+        color: rgb(232, 232, 218);
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }*/
+
+    /*a{
+        color: rgb(232, 232, 218);
+        text-decoration: none;
+        padding: 0 20px 20px 15px;
+    }*/
+
+    .project-b{
+        display: block;
+        width: 100vw;
+        justify-content: space-evenly;
+        margin: 20px 0 20px 0;
+    }
+
+    .project-b h2{
+        padding: 20px 20px 10px 20px;
+        color: whitesmoke;
+        line-height: normal;
+        font-size: 1.4rem;
+        
+    }
+    .project-b p{
+        padding: 0 20px 10px 25px;
+        line-height: normal;
+        color: rgb(232, 232, 218);
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .project-b a{
+        color: rgb(232, 232, 218);
+        text-decoration: none;
+        padding: 0 20px 20px 25px;
+    }
+    .project3{
+        background: rgb(65, 53, 76);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding-bottom: 40px;
+    }
+
+    .project4{
+        background: rgb(65, 53, 76);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+/* ABout me*/
+/* ABout me*/
+.about-me{
+    margin: 70px 0 0 -10px ;
+    height: auto;
+    width: 100vw;
+
+}
+.about-me h3{
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.about-me h2{
+    font-size: 1rem;
+    font-weight: 500px;
+    padding-left: 20px;
+    color: white;
+}
+.grid{
+    display: block;
+}
+.grid-container{
+    display: grid;
+    padding: 5px 0px 0px 0px;
+}
+
+.grid-container h2{
+    margin-top: -40px;
+
+}
+.grid-item{
+background:  rgb(65, 53, 76);
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 15px;
+}
+
+.grid-item h2{
+    color: whitesmoke;
+    padding: 0px;    
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 0px;
+
+}
+.grid p{
+    line-height: normal;
+    font-size: 0.9rem;
+    padding: 0 0 0 0px;
+}
+
+/*........................REVIEWS.............................*/
+.reveiws h2{
+    font-size: 1.3rem;
+}
+.reveiws-grid{
+    display: block;
+    width: 100vw;
+    margin-left: -10px;
+}
+
+
+.grid--item{
+    background:  rgb(65, 53, 76);
+    padding: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    }
+
+    .grid--item p{
+        line-height: 25px;
+        font-size: 0.9rem;
+        padding: 0 0 0 0px;
+    }
+
+    /*     CONTACTS    */
+
+    .contact{
+        text-align: center;
+        width: auto;
+        
+    }
+    .contact h2{
+        font-size: 1.3rem;
+
+    }
+
+    .contact h1{
+        font-size: 1.3rem;
+    }
+    #cont{
+        padding: 10px 30px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    
+    #cont button{
+        padding: 10px 30px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    
+
+
+}
